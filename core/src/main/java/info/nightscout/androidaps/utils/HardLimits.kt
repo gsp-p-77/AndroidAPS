@@ -47,7 +47,7 @@ class HardLimits @Inject constructor(
         // Very Hard Limits Ranges for Temp Targets
         val VERY_HARD_LIMIT_TEMP_MIN_BG = intArrayOf(72, 180)
         val VERY_HARD_LIMIT_TEMP_MAX_BG = intArrayOf(72, 270)
-        val VERY_HARD_LIMIT_TEMP_TARGET_BG = intArrayOf(72, 200)
+        val VERY_HARD_LIMIT_TEMP_TARGET_BG = intArrayOf(35, 200)
         val MIN_DIA = doubleArrayOf(5.0, 5.0, 5.0, 5.0, 5.0)
         val MAX_DIA = doubleArrayOf(9.0, 9.0, 9.0, 9.0, 10.0)
         val MIN_IC = doubleArrayOf(2.0, 2.0, 2.0, 2.0, 0.3)
